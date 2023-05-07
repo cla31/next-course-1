@@ -1,7 +1,11 @@
-import React from 'react'
+import Link from "next/link"
 
-export default function page() {
-  return (
-    <div>page About</div>
-  )
+export default function About() {
+    //throw new Error('Not today!')
+    return (
+        <>
+            <h1>Page About</h1>
+            <Link href="/">Link to Home Page</Link>
+        </>
+    )
 }
