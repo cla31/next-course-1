@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Head from "./head";
+// import Head from "./head";
 //Autre façon de gérer les métadatas:
 import type {Metadata} from 'next'
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head />
+      {/* <Head /> */}
       <body className={inter.className}>{children}</body>
     </html>
   )
