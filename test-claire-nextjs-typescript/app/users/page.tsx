@@ -11,8 +11,8 @@ export default async function UsersPage() {
 
     const users = await usersData
 
-    // console.log("log hello",'Hello') 
-    // console.log("log users",users) 
+    console.log("log hello",'Hello') // Did you find where this appears?
+    console.log("log users",users) // Did you find where this appears?
 
     const content = (
         <section>
@@ -35,3 +35,5 @@ export default async function UsersPage() {
 
     return content
 }
+
+
